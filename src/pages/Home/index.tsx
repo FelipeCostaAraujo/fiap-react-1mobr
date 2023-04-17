@@ -1,29 +1,17 @@
-//import { ChangeEvent, useEffect, useState } from "react";
-import useHome from "./hooks/useHome";
-
-
-//************** HOME VIEW ******************/
-
-//Styles
 import { Container, Content, UserInfoArea, UserInfoContent} from "./styles";
 
-//function Home({user}:HomeProps) {
 function Home() {
-
-  
   return (
-    
     <Container>
-       <img src="./src/assets/ProfilePhoto.jpg" alt="Avatar" />
       <Content>
-      
+  
         <UserInfoArea>
-         
+        <img src="./src/assets/me.png" alt="Avatar"/>
           <UserInfoContent>
             <h1>Felipe Costa Araujo</h1>
             <span>
             
-              <p>Olá, Sou o Felipe</p>
+              <p></p>
               
             </span>
             
@@ -34,8 +22,6 @@ function Home() {
       </Content>
     </Container>    
     );
-
-  
 }
 
 export { Home };

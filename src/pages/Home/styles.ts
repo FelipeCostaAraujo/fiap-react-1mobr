@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
-  flex: 1;
   justify-content: center;
   align-items: center;
+  height: 60rem;
 `;
 
 const Container2 = styled.div`
@@ -32,7 +32,7 @@ const UserInfoArea = styled.div`
 
   img {
     height: 100%;
-    width: 150px;
+    width: 350px;
     border-radius: 0.5rem;
     margin-right: 0.5rem;
   }

@@ -11,16 +11,22 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    //background: var(--background);
-    //background-image:url("./assets/background.jpg");
-    color: var(--white);
+    background-image: url("./Wallpaper - 1920c1080.png");
+    height: 100%;
+    min-height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   :root {
     --white: #fff;
     --black: #000;
     --background: #005bda;
-    --background-image: url("./assets/background.jpg");
+    --background-image: url("./assets/background.png");
   }
 `;
 
