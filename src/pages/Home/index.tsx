@@ -21,9 +21,15 @@ function Home() {
               </p>
             </span>
             <LinksContent>
-              <a className="link" href="https://www.linkedin.com/in/felipe-costa-araújo-8804a3100/" style={{ color: "#0e76a8" }}> <img src="./linkedin.avif" className="icon" /></a>
-              <a className="link" href="https://github.com/FelipeCostaAraujo" style={{ color: "black" }}><img src="./github.jpg" className="icon" /></a>
-              <a className="link" href="https://www.trakto.io" style={{ color: "#4743FFC" }}><img src="./trakto.png" className="icon" /></a>
+              <a className="icon" href="https://www.linkedin.com/in/felipe-costa-araújo-8804a3100/" style={{ color: "#0e76a8" }}>
+                <img className="icon" src="./linkedin.avif" />
+              </a>
+              <a className="icon" href="https://github.com/FelipeCostaAraujo" style={{ color: "black" }}>
+                <img className="icon" src="./github.jpg" />
+              </a>
+              <a className="icon" href="https://www.trakto.io" style={{ color: "#4743FFC" }}>
+                <img className="icon" src="./trakto.png" />
+              </a>
             </LinksContent>
           </UserInfoContent>
         </UserInfoArea>

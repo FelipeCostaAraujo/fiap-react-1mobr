@@ -7,8 +7,6 @@ const Container = styled.div`
   height: 60rem;
 `;
 
-
-
 const Content = styled.div`
   flex-direction: column;
   background: var(--white);
@@ -18,7 +16,6 @@ const Content = styled.div`
   max-width: 720px;
   width: 90%;
 `;
-
 
 const UserInfoArea = styled.div`
   display: flex;
@@ -32,7 +29,6 @@ const UserInfoArea = styled.div`
     margin-right: 0.5rem;
   }
 `;
-
 
 const UserInfoContent = styled.div`
   display: flex;
