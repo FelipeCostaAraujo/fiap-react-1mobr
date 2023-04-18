@@ -7,12 +7,7 @@ const Container = styled.div`
   height: 60rem;
 `;
 
-const Container2 = styled.div`
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-`;
+
 
 const Content = styled.div`
   flex-direction: column;
@@ -43,14 +38,49 @@ const UserInfoContent = styled.div`
   display: flex;
   flex-direction: column;
   color: var(--black);
+
+  .title {
+    display: table-cell;
+    width: 250px;
+    height: 2.5rem;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: 'Open Sans';
+  }
+
+  .text {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    //font-weight: 400;
+  }
+`;
+
+const LinksContent = styled.div`
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-center;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto; 
+
+  .link{
+    margin-right: 10px;
+  }
+
+  .icon{
+    height: 100%;
+    width: 50px;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+  }
 `;
 
 
 
 export {
   Container,
-  Container2,
   UserInfoArea,
   UserInfoContent,
   Content,
+  LinksContent,
 };

@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-image: url("./Wallpaper - 1920c1080.png");
+    background-image: url("./background.png");
     height: 100%;
     min-height: 100%;
 
