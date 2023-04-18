@@ -17,7 +17,7 @@ const Content = styled.div`
   width: 90%;
 `;
 
-const UserInfoArea = styled.div`
+const Row = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -30,7 +30,7 @@ const UserInfoArea = styled.div`
   }
 `;
 
-const UserInfoContent = styled.div`
+const Column = styled.div`
   display: flex;
   flex-direction: column;
   color: var(--black);
@@ -75,8 +75,8 @@ const LinksContent = styled.div`
 
 export {
   Container,
-  UserInfoArea,
-  UserInfoContent,
+  Row,
+  Column,
   Content,
   LinksContent,
 };

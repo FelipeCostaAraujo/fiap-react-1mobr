@@ -1,12 +1,12 @@
-import { Container, Content, UserInfoArea, UserInfoContent, LinksContent } from "./styles";
+import { Container, Content, Row, Column, LinksContent } from "./styles";
 
 function Home() {
   return (
     <Container>
       <Content>
-        <UserInfoArea>
+        <Row>
           <img src="./me.png" alt="Avatar" />
-          <UserInfoContent>
+          <Column>
             <h1 className="title">Felipe Costa Araujo</h1>
             <span>
               <p className="text">
@@ -23,6 +23,7 @@ function Home() {
                 Sou apaixonado por eletronica e iots e tenho varios projetos usando arduino.
               </p>
             </span>
+
             <LinksContent>
               <a className="icon" href="https://www.linkedin.com/in/felipe-costa-araújo-8804a3100/" style={{ color: "#0e76a8" }}>
                 <img className="icon" src="./linkedin.avif" />
@@ -34,8 +35,8 @@ function Home() {
                 <img className="icon" src="./trakto.png" />
               </a>
             </LinksContent>
-          </UserInfoContent>
-        </UserInfoArea>
+          </Column>
+        </Row>
       </Content>
     </Container>
   );
