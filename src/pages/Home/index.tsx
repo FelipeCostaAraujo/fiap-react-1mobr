@@ -11,13 +11,16 @@ function Home() {
             <span>
               <p className="text">
                 Sou desenvolvedor mobile a 6 anos e comecei trabalhando com o Ionic na sua primeira versão com javascript em 2017 e fiquei 2 anos trabalhando com o Ionic em angular ate a versão 4 do Ionic.
-                <br></br>
-                <br></br>
-                Trabalho com Flutter atualmente, mas ja trabalhei com Swift, Java Android.
-                <br></br>
-                Atualmente trabalho na Trakto uma startup de design que esta a muitos anos no mercado.
-                <br></br>
-                tenho conhecimento básico em Devops e desenvolvimento Backend com Go, Python e Nodejs.
+                <br/>
+                <br/>
+                Trabalho com Flutter atualmente na Trakto uma startup de design que esta a muitos anos no mercado, mas ja trabalhei com Swift, Java Android.
+                <br/>
+                Já trabalhei em inumeros projetos de backend, front e mobile.
+                <br/>
+                Tenho conhecimento básico em Devops e desenvolvimento Backend com Go, Python e Nodejs.
+                <br/>
+                <br/>
+                Sou apaixonado por eletronica e iots e tenho varios projetos usando arduino.
               </p>
             </span>
             <LinksContent>

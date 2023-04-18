@@ -38,14 +38,14 @@ const UserInfoContent = styled.div`
   .title {
     display: table-cell;
     width: 250px;
-    height: 2.5rem;
+    height: 3rem;
     vertical-align: middle;
     font-size: 25px;
     font-family: 'Open Sans';
   }
 
   .text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Roboto';
     //font-weight: 400;
   }
